@@ -11,6 +11,7 @@ tertiary color:    #F49D1A
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 html {
     font-size: 62.5%    /* Default font size is 16px - 62.5% of 16 is 10px-
@@ -36,54 +37,62 @@ header {
     padding: 0.5rem;
     box-shadow: 4px 4px 5px rgba(0,0,0,0.4);
     text-transform: uppercase;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 cite {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 
-.xmasText {
+.holidayText {
     display: flex;
     float: left;
     flex-direction: column; 
     justify-content: center;
     align-items: center;
     margin: 7rem 4rem;
+    font-family: "Open Sans";
 }
 
-.imageBoats img {
+.holidayImage img {
     width: 100%;
     height: auto;
     border-radius: 30px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.imageBoats {
-    float: right;
-}
-
-.xmasBoats a {
+.holiday a {
     text-decoration: none;
     color: #F49D1A;
+}
+
+.holidayText {
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 30px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    font-size: 1.5rem;
+    letter-spacing: .5rem;
 }
 
 .cardText {
     color: #C21010;
     text-align: center;
     padding: 2rem;
-    border-radius: 30px;
+    border-radius: 15px;
     margin-top: 2rem;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: none;
 }
 
-.imageBoats img {
-    border-radius: 3rem;
-    box-shadow: 8px 8px #000;
-    width: 115%;
-    height: auto;
+
+@media (min-width: 800px) {
+    
 }
