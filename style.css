@@ -1,0 +1,133 @@
+/*
+Color Palette:
+background color:  #E64848
+font color:     #367E18   #DC0000
+secondary color:   #C21010 #285430
+tertiary color:    #F49D1A
+*/
+
+/* CSS syntax notes:
+    selector {property: value;}
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+html {
+    font-size: 62.5%    /* Default font size is 16px - 62.5% of 16 is 10px-
+                        1 rem (relative unit) now will be equivalent to 10px} */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik Gemstones', sans-serif;
+    font-weight: 300;
+    background-color: #E64848;
+    color: #fff;
+}
+
+header {
+    margin: 0 4rem;
+    letter-spacing: 0.8rem;
+    text-align: center;
+    border-bottom: 1px solid #F49D1A;
+    border-right: 1px solid #F49D1A;
+    border-left: 1px solid #F49D1A;
+    padding: 0.5rem;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.4);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+cite {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.holidayText {
+    display: flex;
+    float: left;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin: 7rem 4rem;
+    font-family: "Open Sans";
+}
+
+.holidayImage img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.holiday a {
+    text-decoration: none;
+    color: #F49D1A;
+}
+
+.holidayText {
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 30px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    font-size: 1.5rem;
+    letter-spacing: .3rem;
+    line-height: 1.5;
+}
+
+.cardText {
+    color: #285430;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 15px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: none;
+    line-height: normal;
+}
+
+.audioInfo {
+    color: #285430;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 15px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    line-height: normal;
+}
+
+.pImage img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+@media (min-width: 800px) {
+    header {
+        font-size: 2rem;
+    }
+    
+    .holidayImage {
+        max-width: 35%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .pImage {
+        max-width: 35%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
